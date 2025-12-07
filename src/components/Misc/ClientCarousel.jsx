@@ -25,7 +25,7 @@ const ClientCarousel = async () => {
 
     <div className=" max-w-[1440px] mx-auto bg-white p-4 sm:p-8"id='about-us'>
 
-        <div className="relative min-h-[70vh] flex items-center justify-center py-16 sm:py-24 overflow-hidden bg-white font-[Inter]">
+        <div className="relative py-8 flex items-center justify-center  overflow-hidden bg-white font-[Inter]">
             
 
   
@@ -43,12 +43,14 @@ const ClientCarousel = async () => {
                 <p data-aos="zoom-out-up" className="text-xl sm:text-2xl text-gray-700 text-start leading-relaxed max-w-[100%] mx-auto mt-4 border-blue-600 pt-4">
                  We’re not just about power generation; we’re about sustainability, innovation, and long-term community growth.
 At Aayu Malun Hydropower, our mission is to harness Nepal’s natural energy responsibly, delivering clean and reliable electricity that empowers people and preserves the environment for generations to come. 
+
+For this ambitious endeavor, the company has already secured the necessary construction license from the Department of Electricity Development, reflecting both regulatory approval and trust in our technical expertise. The department officially granted the construction permit to the company on Mangsir 6, 2079 BS, marking a significant milestone in the project’s journey from vision to reality. 
                 </p>
                 
             </div>
         </div>
                 <Card className="bg-white mt-4 mb-4  text-white lg:col-span-2 lg:row-span-1 h-full relative overflow-hidden">
-          <div className='flex md:flex-row flex-col items-center justify-between'>
+          <div className='flex md:flex-row flex-col items-start justify-between'>
      <div className='w-[90%]' >
            <h3 className="text-l font-semibold mb-4 opacity-75 text-gray-900">Where we Operate</h3>
           <div className="absolute top-0 right-0 w-full h-full opacity-10 pointer-events-none">
@@ -59,14 +61,14 @@ At Aayu Malun Hydropower, our mission is to harness Nepal’s natural energy res
             <p data-aos="zoom-out-up" className="text-lg leading-relaxed max-w-2x text-gray-900 ">
              Our 21 MW Aayu Malun Khola Hydropower Project is located in the Sagarmatha Zone of Koshi Province, spanning across Okhaldhunga and Solukhumbu districts.
 The intake lies in Malun Rural Municipality – Ward 6 & 7, while the powerhouse is located in Ward 5.
-The transmission line traverses Rangadip, Patale, Bigutar, Jantarkhani, Kerun, and Tingla before connecting to the Tingla Substation. 
+The transmission line traverses Rangadip, Patale, Bigutar, Jantarkhani, Kerun, and Tingla before connecting to the Tingla Substation. we aim to contribute to sustainable development, foster local employment, and ensure that every project benefits both the environment and the people in the surrounding regions. Puwa Khola 1 Hydropower Limited is proud to announce its plan to develop the 21 MW Aayu Malun Khola Hydropower Project in the picturesque Okhaldhunga district, a project that will not only generate electricity but also support regional growth and infrastructure development.
             </p>
       
            
             <div className="absolute right-[10%] top-[40%] bg-white w-2 h-2 rounded-full border-2 border-opacity-70 border-white shadow-xl"></div>
           </div>
        </div>
-          <Image data-aos="zoom-out-up" src={map2.src} width={200} className='w-[100%]' height={200}   alt="map" />  
+          <Image data-aos="zoom-out-up" src={map2.src} width={200} className='w-[50%]' height={200}   alt="map" />  
           
 
      </div>

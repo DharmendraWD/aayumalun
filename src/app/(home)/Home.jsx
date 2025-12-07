@@ -110,8 +110,10 @@ const Home1 = async() => {
             </h1>
 
             <p data-aos="fade-up" className="mt-8 text-lg sm:text-xl text-gray-600 w-full max-w-full">
-           We don’t just construct hydropower structures; we create projects that inspire confidence, stand strong against time, and deliver reliable clean energy to the people who live and work in the region.
-           Puwa Khola 1 Hydropower Limited is going to build the 21 MW Aayu Malun Khola Hydropower Project in Okhaldhunga district. For this purpose, the company has already received the construction license from the Department of Electricity Development. The department granted the construction permit to the company on Mangsir 6, 2079 BS.
+          We don’t just construct hydropower structures; we create projects that inspire confidence, stand resilient against the test of time, and deliver reliable, clean energy to the communities that depend on it. Our commitment goes beyond mere construction — we aim to contribute to sustainable development, foster local employment, and ensure that every project benefits both the environment and the people in the surrounding regions. Puwa Khola 1 Hydropower Limited is proud to announce its plan to develop the 21 MW Aayu Malun Khola Hydropower Project in the picturesque Okhaldhunga district, a project that will not only generate electricity but also support regional growth and infrastructure development.
+          <br />
+
+For this ambitious endeavor, the company has already secured the necessary construction license from the Department of Electricity Development, reflecting both regulatory approval and trust in our technical expertise. The department officially granted the construction permit to the company on Mangsir 6, 2079 BS, marking a significant milestone in the project’s journey from vision to reality. 
             </p>
 
             <div className="mt-10 md:flex-row md:gap-1 gap-[10px] flex-col flex space-x-4">
