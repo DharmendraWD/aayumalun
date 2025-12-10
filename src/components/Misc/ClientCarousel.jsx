@@ -32,7 +32,10 @@ const ClientCarousel = async () => {
             <div className="relative z-10  mx-auto px-4 sm:px-6 lg:px-8 text-center">
 
           
-                <div data-aos="zoom-out-up" className="flex justify-center mb-8 sm:mb-12">
+                <div data-aos="fade-zoom-in"
+     data-aos-easing="ease-in-back"
+     data-aos-delay="800"
+     data-aos-offset="0" className="flex justify-center mb-8 sm:mb-12">
                     <button className="px-6 py-2 bg-white text-gray-900 font-medium text-xl rounded-full shadow-lg transition duration-200 hover:shadow-xl hover:text-gray-800  border border-gray-200">
                     About Us
                     </button>
@@ -40,7 +43,10 @@ const ClientCarousel = async () => {
                 
 
 
-                <p data-aos="zoom-out-up" className="text-xl sm:text-xl text-gray-700 text-center leading-relaxed max-w-[100%] mx-auto mt-4 border-blue-600 pt-4">
+                <p data-aos="fade-zoom-in"
+     data-aos-easing="ease-in-back"
+     data-aos-delay="800"
+     data-aos-offset="0" className="text-xl sm:text-xl text-gray-700 text-center leading-relaxed max-w-[100%] mx-auto mt-4 border-blue-600 pt-4">
                  We’re not just about power generation; we’re about sustainability, innovation, and long-term community growth.
 At Aayu Malun Hydropower, our mission is to harness Nepal’s natural energy responsibly, delivering clean and reliable electricity that empowers people and preserves the environment for generations to come. 
 
@@ -76,7 +82,7 @@ The transmission line traverses Rangadip, Patale, Bigutar, Jantarkhani, Kerun, a
 
 
 
-      <div className="grid gap-6 lg:grid-cols-3  lg:h-[350px]" >
+      <div className="grid mt-8 gap-6 lg:grid-cols-3  lg:h-[350px]" >
 
       
 

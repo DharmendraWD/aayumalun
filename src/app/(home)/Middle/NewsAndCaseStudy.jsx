@@ -33,7 +33,7 @@ const CaseStudyCard = ({ study }) => {
                 <h3 className="text-2xl font-semibold text-gray-800 leading-snug mb-3">
                    {study.title}
                 </h3>
-                <div className="text-base multiline-ellipsis text-gray-600 mb-4 flex-grow">
+                <div className="text-base multiline-ellipsis font-semibold text-gray-600 mb-4 flex-grow">
                                         {study?.desc} 
 
                 </div>
@@ -72,7 +72,7 @@ img:bimg1
       
 
   return (
-    <div data-aos="fade-up"  className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50 font-[Inter]">
+    <div data-aos="fade-up"  className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
       <div className="max-w-[1440px] mx-auto">
         
         {/* Header - Centered */}

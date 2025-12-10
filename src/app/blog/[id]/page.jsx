@@ -82,7 +82,7 @@ export default async  function NewsDets(props) {
     return (
         <>
         {/* <Navbar></Navbar> */}
-        <div className="min-h-[100vh] flex items-end justify-center font-[Inter] relative overflow-hidden bg-gray-100">
+        <div className="min-h-[100vh] flex items-end justify-center  relative overflow-hidden bg-gray-100">
             
             {/* Background Image and Overlay Container */}
             <div className="absolute inset-0 z-0">
@@ -103,7 +103,7 @@ export default async  function NewsDets(props) {
                     <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-tight max-w-4xl mx-auto">
                         {data[id].title  ?? " "}
                     </h1>
-                    <div className="mt-4 multiline-ellipsis2 text-lg text-gray-200 max-w-3xl mx-auto px-4 sm:px-0">
+                    <div className="mt-4  multiline-ellipsis2 text-lg text-gray-200 max-w-3xl mx-auto px-4 sm:px-0">
                     
                     {data[id].desc || null}
           
@@ -114,7 +114,7 @@ export default async  function NewsDets(props) {
         </div>
         
          {/* ------------------------------------- */}
-         <div className="min-h-screen py-12 sm:py-16 md:py-20 font-[Inter] bg-[#e9e9e9]">
+         <div className="min-h-screen py-12 sm:py-16 md:py-20  bg-[#e9e9e9]">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 
                 {/* Responsive Grid Container */}
@@ -226,7 +226,7 @@ const NewsStudy = async({data, id}) => {
                                     {data[id].title || null}
 
                 </h2>
-                <div className="text-lg">
+                <div className="text-lg font-semibold">
                  
                             {data[id].desc || null}
 

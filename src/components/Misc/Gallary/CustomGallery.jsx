@@ -25,7 +25,9 @@ const CustomGallery = async() => {
   return (
     <>
     <div id='gallery'>
-    <H1 label="Gallery"></H1>
+    <div className='py-4 pb-[30px]'>
+      <H1 label="Gallery "></H1>
+    </div>
   <div className="grid grid-cols-1 sm:grid-cols-4 max-w-[1440px]  mx-auto auto-rows-[300px] sm:auto-rows-[350px]">
 {
       images.map((image, index) => {
