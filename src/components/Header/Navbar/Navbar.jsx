@@ -113,7 +113,7 @@ const Navbar = () => {
               // Use Tailwind's utility for the primary color: 
               // The class 'bg-primary1' would need to be defined in tailwind.config.js
               // Using indigo-600 as a visual match for the example image's button color
-              className="px-6 py-2 text-base font-medium text-white bg-indigo-600 rounded-lg shadow-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 transition duration-300"
+              className="px-6 py-2 text-base font-medium text-white bg-indigo-600 rounded-full shadow-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 transition duration-300"
               style={{ backgroundColor: 'var(--color-primary1, #ab2320)' }} // Fallback for primary1
             >
               Contact Us
@@ -162,7 +162,7 @@ const Navbar = () => {
             <Link
             href={"#contact"}
               onClick={() => {  setIsOpen(false); }}
-              className="w-full px-4 py-2 text-base font-medium text-white bg-indigo-600 rounded-lg shadow-md hover:bg-indigo-700 transition duration-300"
+              className="w-full px-4 py-2 text-base font-medium text-white bg-indigo-600 rounded-full shadow-md hover:bg-indigo-700 transition duration-300"
               style={{ backgroundColor: 'var(--color-primary1, #4f46e5)' }} // Fallback for primary1
             >
               Contact Us

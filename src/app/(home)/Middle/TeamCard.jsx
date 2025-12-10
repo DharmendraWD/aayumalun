@@ -32,7 +32,7 @@ Ltd.`
   },
   {
     name: "Kadam KC",
-    title: "Key Person | chairman - Dudhkoshi-2 (Jaleshwor)",
+    title: "Key Person | chairman - Dudhkoshi-2",
     img:kadamkc,
     desc:
       `Background in Environmental Science and Geotechnical Engineering (UK). 
@@ -84,7 +84,7 @@ const TeamCarousel = () => {
      data-aos-anchor-placement="center-bottom">
       <div className="team-header flex lg:flex-row gap-8 items-start max-w-[100%] w-full flex-col">
         <h1>Meet the talented team who make all this happen</h1>
-        <p>
+        <p className="font-semibold "> 
           Our philosophy is simple, hire great people and give them the
           resources and support to do their best work.
         </p>
@@ -94,19 +94,20 @@ const TeamCarousel = () => {
         responsive={responsive}
         infinite
         autoPlay
-        autoPlaySpeed={2000}
+        autoPlaySpeed={200000}
         transitionDuration={800}
         containerClass="carousel-container fade-carousel"
         arrows={false}
+         itemClass="px-4 py-[20px]"
    
       >
         {teamMembers.map((member, index) => (
-          <div className="team-card rounded-xl shadow-lg transition duration-300 ease-in-out hover:scale-[1.01]s" key={index}>
+          <div className="team-card rounded-xl hover:shadow-2xl hover:scale-[1.01] px-4  shadow-lg transition duration-300 ease-in-out hover:scale-[1.01]s" key={index}>
             <img  src={member.img.src}  className="team-img mx-auto" />
 
             <h3 className="font-semibold">{member.name}</h3>
-            <h4>{member.title}</h4>
-            <p className="max-h-[100px] overflow-scroll my-scroll">{member.desc}</p>
+            <h4 className="font-semibold ">{member.title}</h4>
+            <p className="max-h-[100px] overflow-scroll my-scroll text-gray-600 font-semibold ">{member.desc}</p>
           </div>
         ))}
       </Carousel>

@@ -24,7 +24,7 @@ Sustainable Energy for a Brighter Tomorrow.
         <p data-aos="fade-zoom-in"
      data-aos-easing="ease-in-back"
      data-aos-delay="800"
-     data-aos-offset="0" className="text-lg md:text-xl text-gray-700 max-w-2xl mx-auto mb-12">
+     data-aos-offset="0" className="text-lg font-semibold md:text-xl text-gray-700 max-w-2xl mx-auto mb-12">
 We harness the pure, natural flow of Nepal’s rivers to deliver reliable, sustainable and environmentally friendly hydro-electric power. Our mission is to light homes, empower communities, and build a cleaner future for Nepal.
         </p>
 

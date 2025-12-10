@@ -23,9 +23,9 @@ const ClientCarousel = async () => {
 
   return (
 
-    <div className=" max-w-[1440px] mx-auto bg-white p-4 sm:p-8"id='about-us'>
+    <div className=" max-w-[1440px] mb-4 mx-auto bg-white p-4 sm:p-8"id='about-us'>
 
-        <div className="relative py-8 flex items-center justify-center  overflow-hidden bg-white font-[Inter]">
+        <div className="relative py-8 max-w-[1100px] mx-auto flex items-center justify-center  overflow-hidden bg-white font-[Inter]">
             
 
   
@@ -40,7 +40,7 @@ const ClientCarousel = async () => {
                 
 
 
-                <p data-aos="zoom-out-up" className="text-xl sm:text-2xl text-gray-700 text-start leading-relaxed max-w-[100%] mx-auto mt-4 border-blue-600 pt-4">
+                <p data-aos="zoom-out-up" className="text-xl sm:text-xl text-gray-700 text-center leading-relaxed max-w-[100%] mx-auto mt-4 border-blue-600 pt-4">
                  We’re not just about power generation; we’re about sustainability, innovation, and long-term community growth.
 At Aayu Malun Hydropower, our mission is to harness Nepal’s natural energy responsibly, delivering clean and reliable electricity that empowers people and preserves the environment for generations to come. 
 

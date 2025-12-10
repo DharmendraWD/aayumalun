@@ -75,7 +75,7 @@ id:5
             <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-4 leading-tight">
               Some questions, <br />some answers.
             </h2>
-            <p className="text-lg text-gray-700 max-w-sm mx-auto lg:mx-0">
+            <p className="text-lg font-semibold text-gray-700 max-w-sm mx-auto lg:mx-0">
               Have a look at my most frequently asked questions.
             </p>
           </div>
@@ -104,7 +104,7 @@ id:5
                   id={`faq-answer-${item.id}`}
                   role="region"
                   aria-labelledby={`faq-question-${item.id}`}
-                  className={`overflow-hidden transition-all duration-300 ease-in-out ${
+                  className={`overflow-hidden font-semibold transition-all duration-300 ease-in-out ${
                     openId === item.id ? 'max-h-[200px] opacity-100 mt-4' : 'max-h-0 opacity-0'
                   }`}
                   // Note: max-h-[200px] is a safe estimate for average answer length.

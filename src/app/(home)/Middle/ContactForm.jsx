@@ -115,10 +115,10 @@ const [isloading, setisloading] = useState(false)
             <div className="container mx-auto px-4 max-w-[1440px]">
                 
                 {/* Main Grid: Contact Info (Left) and Form (Right) */}
-                <div  className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 items-start">
+                <div  className="grid grid-cols-1 justify-center lg:grid-cols-2 gap-10 lg:gap-20 items-start" style={{justifyItems:'center',}}>
                     
                     {/* Left Column: Text and Contact Details */}
-                    <div className="lg:pr-10" data-aos="zoom-in-left">
+                    <div className="lg:pr-10 max-w-[500px] flex flex-col justify-between sm:p-10 p-8  hover:shadow-xl  h-full" data-aos="zoom-in-left">
                         <h2 className="text-5xl md:text-6xl font-extrabold text-gray-900 mb-6">
                     {data[0]?.heading ?   data[0]?.heading : "Get In Touch With Us. "}
                         </h2>
@@ -167,7 +167,7 @@ const [isloading, setisloading] = useState(false)
                     </div>
 
                     {/* Right Column: Contact Form */}
-                    <div data-aos="zoom-in-right" className="p-8 sm:p-10 bg-white rounded-[30px] shadow-xl w-full">
+                    <div data-aos="zoom-in-right" className="p-8 max-w-[500px] sm:p-10 h-full hover:shadow-2xl   bg-white rounded-[30px] shadow-xl w-full">
                         <form onSubmit={addClientMess} className="space-y-6">
                             
                             {/* Name Input */}

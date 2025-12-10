@@ -144,7 +144,7 @@ const socialLinks = [
 
 <div data-aos="fade-up">
 
-                          <p className="text-gray-700 font-medium text-center mb-4">Our Location</p>
+                          <p className="text-gray-700 font-medium text-center mb-4 font-semibold">Our Location</p>
     {/* <iframe
         src={data?.[0]?.map + "?output=embed"}
         width="100%"
@@ -162,8 +162,8 @@ const socialLinks = [
 
         {/* Copyright Section */}
         <div data-aos="fade-up" className="text-center pt-8 mt-12 border-t border-gray-200">
-          <p className="text-gray-500 text-sm">
-           @Copyrights 2025 Aayumalun
+          <p className="text-gray-500 text-sm font-semibold">
+           @Copyrights Aayumalun
           </p>
           <p className="text-gray-500 text-[12px]">
             Developed by Aayusoft Tech

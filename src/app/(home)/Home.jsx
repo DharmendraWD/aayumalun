@@ -24,7 +24,7 @@ const ImageGridContent = async () => {
   };
   
 return (
-  <div data-aos="zoom-in-up" className="grid  grid-cols-2 grid-rows-3 gap-3 p-4 md:p-6 lg:p-8">
+  <div data-aos="zoom-in-up" className="grid scrImgaes  grid-cols-2 grid-rows-3 gap-3 p-4 md:p-6 lg:p-8">
            {/* ... (Image elements are unchanged) ... */}
         {/* Image 1: Top Left - Span two rows */}
         <div className="row-span-1 aspect-[4/5] overflow-hidden rounded-xl shadow-2xl max-h-[300px]  w-[100%]">
@@ -60,31 +60,26 @@ const ScrollingImageGrid = () => {
   const copies = 3; 
 
   return (
-    // Outer container: clips the content
-    <div className="relative w-full h-[500px] md:h-[600px] lg:h-full overflow-hidden">
-      
-      {/* Inner container: scrolls up. Now using the animation style from globals.css. */}
-      <div 
-        className="absolute inset-0 w-full"
-        // Applying the animation property here, referencing the keyframes in globals.css
-        style={{ 
-          height: `${copies * 100}%`,
-          animation: 'scroll-up 10s linear infinite', // 'scroll-up' is now global
-        }}
-      >
-        
-        {/* Duplicate the single grid content N times */}
-        {[...Array(copies)].map((_, idx) => (
-          <ImageGridContent key={idx}/>
-        ))}
+   <div className="relative w-full h-[500px] md:h-[600px] lg:h-full overflow-hidden">
+  
+  <div
+    className="absolute inset-0 w-full"
+    style={{
+      height: "200%",          // <— key change
+      animation: "scroll-up 6s linear infinite",
+    }}
+  >
+    {[...Array(2)].map((_, idx) => (
+      <ImageGridContent key={idx} />
+    ))}
+  </div>
 
-      </div>
-      
-      {/* White shadow overlays */}
-      <div className="absolute top-0 left-0 w-full h-1/6 bg-gradient-to-b from-white to-transparent opacity-90 z-10 pointer-events-none"></div>
-      <div className="absolute bottom-0 left-0 w-full h-1/6 bg-gradient-to-t from-white to-transparent opacity-90 z-10 pointer-events-none"></div>
+  {/* gradient overlays */}
+  <div className="absolute top-0 left-0 w-full h-1/6 bg-gradient-to-b from-white to-transparent z-10 pointer-events-none"></div>
+  <div className="absolute bottom-0 left-0 w-full h-1/6 bg-gradient-to-t from-white to-transparent z-10 pointer-events-none"></div>
 
-    </div>
+</div>
+
   );
 };
 
@@ -105,18 +100,85 @@ const Home1 = async() => {
         <div className="container mx-auto grid lg:grid-cols-2 gap-12 lg:gap-8">
           
           <div className="flex flex-col justify-center py-8 lg:py-0">
-            <h1 data-aos="fade-up" className="text-3xl sm:text-4xl lg:text-4xl font-extrabold text-black leading-tight">
-           Clean energy, unstoppable flow.
-            </h1>
+          <h1
+  data-aos="fade-up"
+  className="text-3xl user-select-none sm:text-4xl lg:text-[70px] font-extrabold leading-none group"
+>
+  {/* CLEAN ENERGY */}
+  <span
+    className=" user-select-none
+      hover:text-gray-700
+      text-[var(--primary3)]
+      transition-all duration-300
+      group-hover:text-[var(--primary3)]
+      group-hover:hover:text-gray-700
+    "
+  >
+    Clean energy
+  </span>
 
-            <p data-aos="fade-up" className="mt-8 text-lg sm:text-xl text-gray-600 w-full max-w-full">
-          We don’t just construct hydropower structures; we create projects that inspire confidence, stand resilient against the test of time, and deliver reliable, clean energy to the communities that depend on it. Our commitment goes beyond mere construction — we aim to contribute to sustainable development, foster local employment, and ensure that every project benefits both the environment and the people in the surrounding regions. Puwa Khola 1 Hydropower Limited is proud to announce its plan to develop the 21 MW Aayu Malun Khola Hydropower Project in the picturesque Okhaldhunga district, a project that will not only generate electricity but also support regional growth and infrastructure development.
+  <br />
+
+  {/* OTHER TEXT */}
+  <span
+    className="
+      text-gray-700 user-select-none
+      transition-all duration-300
+      group-hover:text-[var(--primary3)]
+      group-hover:hover:text-gray-700
+    "
+  >
+    an unstoppable flow
+  </span>
+
+  <br />
+
+  <span
+    className="
+      text-gray-700
+      transition-all duration-300
+      group-hover:text-[var(--primary3)]
+      group-hover:hover:text-gray-700
+    "
+  >
+    powering  a  
+  </span>
+
+  <span
+    className="
+      hover:text-gray-700
+      text-[var(--primary3)]
+      transition-all duration-300
+      group-hover:text-[var(--primary3)]
+      group-hover:hover:text-gray-700
+    "
+  >
+     brighter
+  </span>
+
+  <br />
+
+  <span
+    className="
+      text-gray-700
+      transition-all duration-300
+      group-hover:text-[var(--primary3)]
+      group-hover:hover:text-gray-700
+    "
+  >
+    tomorrow.
+  </span>
+</h1>
+
+
+            <p data-aos="fade-up" className="mt-8 font-semibold text-lg sm:text-xl text-gray-600 w-full max-w-full">
+          We don’t just construct hydropower structures; we create projects that inspire confidence, stand resilient against the test of time, and deliver reliable, clean energy to the communities that depend on it. Our commitment goes beyond mere construction.
           <br />
 
-For this ambitious endeavor, the company has already secured the necessary construction license from the Department of Electricity Development, reflecting both regulatory approval and trust in our technical expertise. The department officially granted the construction permit to the company on Mangsir 6, 2079 BS, marking a significant milestone in the project’s journey from vision to reality. 
+
             </p>
 
-            <div className="mt-10 md:flex-row md:gap-1 gap-[10px] flex-col flex space-x-4">
+            <div data-aos="fade-up" className="mt-10 md:flex-row md:gap-1 gap-[10px] flex-col flex space-x-4">
           
 <RoundedBgBtn 
   label={"About Us"} 

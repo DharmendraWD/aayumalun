@@ -56,7 +56,7 @@ const MvvCard = ({ title, description, Icon }) => {
 
       <p
         className="mt-2 text-base text-gray-600 leading-relaxed transition-colors 
-        duration-300 ease-in-out group-hover:text-white"
+        duration-300 ease-in-out group-hover:text-white font-semibold "
       >
         {description}
       </p>
@@ -77,7 +77,7 @@ const Mission = () => {
               Mission
             </h2>
 
-            <p className="text-lg text-gray-600 mb-10 leading-relaxed max-w-lg">
+            <p className="text-lg text-gray-600 mb-10 font-semibold  leading-relaxed max-w-lg">
               Deliver reliable renewable energy through sustainable hydropower
               development for Nepal’s future growth.
             </p>
@@ -97,11 +97,11 @@ const Mission = () => {
 
           {/* RIGHT SIDE IMAGE */}
           <div className="h-full min-h-[400px]">
-            <div className="relative w-full h-full rounded-2xl overflow-hidden shadow-xl">
+            <div className="relative w-full  rounded-2xl overflow-hidden shadow-xl">
               <img data-aos="zoom-out-up"
                 src={img.src}
                 alt="Hydropower"
-                className="w-full max-h-screen object-cover"
+                className="w-full max-h-[860px] object-cover"
               />
             </div>
           </div>

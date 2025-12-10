@@ -110,12 +110,6 @@ export default async  function NewsDets(props) {
                     </div>
                 </div>
 
-                {/* Statistics Cards Grid */}
-                <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4 lg:gap-8">
-                    {STATISTICS.map((stat, index) => (
-                        <StatCard key={index} stat={stat} />
-                    ))}
-                </div>
             </div>
         </div>
         

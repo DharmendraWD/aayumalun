@@ -10,7 +10,7 @@ import Navbar from "@/components/Header/Navbar/Navbar";
 
 
 const myFont = localFont({
-  src: "../../src/font/OPTITimes-Roman.otf",
+  src: "../../src/font/SatoshiRegular.otf",
   variable: "--font-myfont",
 });
 
@@ -33,7 +33,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={myFont.variable}>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${myFont.variable}`}
       >
         <Navbar></Navbar>
         <ToastProvider />
