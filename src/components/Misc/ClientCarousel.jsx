@@ -67,7 +67,7 @@ For this ambitious endeavor, the company has already secured the necessary const
             <p data-aos="zoom-out-up" className="text-lg leading-relaxed max-w-2x text-gray-900 ">
              Our 21 MW Aayu Malun Khola Hydropower Project is located in the Sagarmatha Zone of Koshi Province, spanning across Okhaldhunga and Solukhumbu districts.
 The intake lies in Malun Rural Municipality – Ward 6 & 7, while the powerhouse is located in Ward 5.
-The transmission line traverses Rangadip, Patale, Bigutar, Jantarkhani, Kerun, and Tingla before connecting to the Tingla Substation. we aim to contribute to sustainable development, foster local employment, and ensure that every project benefits both the environment and the people in the surrounding regions. Puwa Khola 1 Hydropower Limited is proud to announce its plan to develop the 21 MW Aayu Malun Khola Hydropower Project in the picturesque Okhaldhunga district, a project that will not only generate electricity but also support regional growth and infrastructure development.
+The transmission line traverses Rangadip, Patale, Bigutar, Jantarkhani, Kerun, and Tingla before connecting to the Tingla Substation. we aim to contribute to sustainable development, foster local employment, and ensure that every project benefits both the environment and the people in the surrounding regions.
             </p>
       
            

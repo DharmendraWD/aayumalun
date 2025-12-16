@@ -3,7 +3,7 @@
 import React from "react";
 import { Target, Eye, Gem } from "lucide-react";
 // import img from "../../../../public/img/imghydroportrait.jpeg";
-import img from "../../../../public/img/proj/5.jpeg";
+import img from "../../../../public/img/proj/mission.jpeg";
 
 // Static MVV Data (no API)
 const mvvData = [
