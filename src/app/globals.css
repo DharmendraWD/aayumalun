@@ -96,6 +96,8 @@ html {
 
   margin-bottom: 15px;
   width: 250px;
+      object-fit: cover;
+    object-position: top;
     height: 250px;
 }
 

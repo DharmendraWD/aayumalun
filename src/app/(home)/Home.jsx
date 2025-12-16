@@ -135,7 +135,7 @@ const Home1 = async() => {
 
   <span
     className="
-      text-gray-700
+      text-gray-700 mr-2
       transition-all duration-300
       group-hover:text-[var(--primary3)]
       group-hover:hover:text-gray-700

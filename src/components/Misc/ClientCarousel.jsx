@@ -25,7 +25,7 @@ const ClientCarousel = async () => {
 
     <div className=" max-w-[1440px] mb-4 mx-auto bg-white p-4 sm:p-8"id='about-us'>
 
-        <div className="relative py-8 max-w-[1100px] mx-auto flex items-center justify-center  overflow-hidden bg-white font-[Inter]">
+        <div className="relative py-8 max-w-[1100px] mx-auto flex items-center justify-center  overflow-hidden bg-white ">
             
 
   
@@ -35,7 +35,7 @@ const ClientCarousel = async () => {
                 <div data-aos="fade-zoom-in"
      data-aos-easing="ease-in-back"
      data-aos-delay="800"
-     data-aos-offset="0" className="flex justify-center mb-8 sm:mb-12">
+     data-aos-offset="0" className="flex justify-center mb-8 sm:mb-8">
                     <button className="px-6 py-2 bg-white text-gray-900 font-medium text-xl rounded-full shadow-lg transition duration-200 hover:shadow-xl hover:text-gray-800  border border-gray-200">
                     About Us
                     </button>

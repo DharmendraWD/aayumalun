@@ -103,7 +103,9 @@ const TeamCarousel = () => {
       >
         {teamMembers.map((member, index) => (
           <div className="team-card rounded-xl hover:shadow-2xl hover:scale-[1.01] px-4  shadow-lg transition duration-300 ease-in-out hover:scale-[1.01]s" key={index}>
-            <img  src={member.img.src}  className="team-img mx-auto" />
+          <div>
+              <img  src={member.img.src}  className="team-img mx-auto" />
+          </div>
 
             <h3 className="font-semibold">{member.name}</h3>
             <h4 className="font-semibold ">{member.title}</h4>

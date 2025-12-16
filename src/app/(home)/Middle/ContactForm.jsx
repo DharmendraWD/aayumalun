@@ -179,7 +179,7 @@ const [isloading, setisloading] = useState(false)
                                     name="name"
                                     value={formData.name}
                                     onChange={handleChange}
-                                    placeholder="Jane Smith"
+                                    placeholder="Sender Name"
                                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-primary1 focus:border-primary1 transition-colors"
                                     required
                                     disabled={isloading}
@@ -195,7 +195,7 @@ const [isloading, setisloading] = useState(false)
                                     name="email"
                                     value={formData.email}
                                     onChange={handleChange}
-                                    placeholder="jane@framer.com"
+                                    placeholder="sender@gmail.com"
                                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-primary1 focus:border-primary1 transition-colors"
                                     required
                                     disabled={isloading}

@@ -19,24 +19,7 @@ const STATISTICS = [
 ];
 
   let data =  [
-    {
-      title:"Puwa Khola 1 Hydropower To Develop 21 MW Aayu Malun Khola Hydropower Project In Okhaldhunga",
-      desc:`Puwa Khola 1 Hydropower Limited is going to build the 21 MW Aayu Malun Khola Hydropower Project in Okhaldhunga district. For this purpose, the company has already received the construction license from the Department of Electricity Development.
-
-The department granted the construction permit to the company on Mangsir 6, 2079 BS. The license has a validity until Mangsir 5, 2114 BS.
-
-The department has provided the construction license to the promoter company on the basis of the environmental impact assessment report and study report of the project approved by the Ministry of Forest and Environment.
-
-Before issuing the license, the Department Of Electricity Development had issued a notice requesting the stakeholders to submit written opinions/suggestions within 35 days if there is any adverse impact due to the construction and operation of this project.
-
-The project is a run-of-the-river (ROR) type project. It will be built on the Malun River in Okhaldhunga district.
-
-Puwa Khola 1 Hydropower is currently operating a 4 MW Puwa Khola-1 Hydropower Project in Illam District. The project began commercial electricity production from Ashwin 23, 2074 BS.
-
-`,
-id:2,
-img:bimg1
-    },
+   
     {
       title:"Puwa Khola 1 Hydropower To Develop 21 MW Aayu Malun Khola Hydropower Project In Okhaldhunga",
       desc:`Puwa Khola 1 Hydropower Limited is going to build the 21 MW Aayu Malun Khola Hydropower Project in Okhaldhunga district. For this purpose, the company has already received the construction license from the Department of Electricity Development.
