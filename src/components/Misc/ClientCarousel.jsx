@@ -57,7 +57,7 @@ For this ambitious endeavor, the company has already secured the necessary const
                 <Card className="bg-white mt-4 mb-4  text-white lg:col-span-2 lg:row-span-1 h-full relative overflow-hidden">
           <div className='flex md:flex-row flex-col items-start justify-between'>
      <div className='w-[90%]' >
-           <h3 className="text-l font-semibold mb-4 opacity-75 text-gray-900">Where we Operate</h3>
+           <h3 className="text-xl font-bold mb-4 opacity-75 text-gray-900">Where we Operate</h3>
           <div className="absolute top-0 right-0 w-full h-full opacity-10 pointer-events-none">
            
             <div className="absolute inset-0 bg-repeat [background-image:radial-gradient(currentColor_1px,_transparent_1px)] [background-size:20px_20px]"></div>
