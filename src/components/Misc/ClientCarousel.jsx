@@ -6,8 +6,7 @@ import Image from 'next/image';
 import map from "../../../public/img/map.png"
 import map2 from "../../../public/img/proj/map2.png"
 import elec from "../../../public/img/electric.png"
-import img1 from "../../../public/img/proj/11.png";
-import img2 from "../../../public/img/proj/22.png";
+import img2 from "../../../public/img/new1.jpeg";
 
 const Card = ({ children, className }) => (
   <div
@@ -66,12 +65,11 @@ For this ambitious endeavor, the company has already secured the necessary const
           <div className="relative z-10">
             <p data-aos="zoom-out-up" className="text-lg leading-relaxed max-w-2x text-gray-900 ">
              Our 21 MW Aayu Malun Khola Hydropower Project is located in the Sagarmatha Zone of Koshi Province, spanning across Okhaldhunga and Solukhumbu districts.
-The intake lies in Malun Rural Municipality – Ward 6 & 7, while the powerhouse is located in Ward 5.
-The transmission line traverses Rangadip, Patale, Bigutar, Jantarkhani, Kerun, and Tingla before connecting to the Tingla Substation. we aim to contribute to sustainable development, foster local employment, and ensure that every project benefits both the environment and the people in the surrounding regions.
+The intake lies in Malun Rural Municipality Ward 6 & 7, while the powerhouse is located in Ward 5.
+The transmission line traverses Rangadip, Patale, Bigutar, Jantarkhani, Kerun, and Tingla before connecting to the Tingla Substation. 
             </p>
       
            
-            <div className="absolute right-[10%] top-[40%] bg-white w-2 h-2 rounded-full border-2 border-opacity-70 border-white shadow-xl"></div>
           </div>
        </div>
           <Image data-aos="zoom-out-up" src={map2.src} width={200} className='w-[50%]' height={200}   alt="map" />  
